@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="stop">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://stop/meshes/stop.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="mesh">
+        <geometry>
+          <mesh>
+            <uri>model://stop/meshes/stop.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://stop/materials/scripts</uri>
+            <uri>model://stop/materials/textures</uri>
+            <name>vrc/stop</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

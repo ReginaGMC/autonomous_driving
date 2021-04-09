@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="pista">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://pista/meshes/pista.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="mesh">
+        <geometry>
+          <mesh>
+            <uri>model://pista/meshes/pista.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://pista/materials/scripts</uri>
+            <uri>model://pista/materials/textures</uri>
+            <name>vrc/pista</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
