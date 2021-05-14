@@ -1,7 +1,7 @@
 # autonomous_driving
 Simulación en ROS de múltiples pistas para el TurtleBot3 Waffle Pi de conducción autónoma con visión computacional
 
-Para poder correr el proyecto primero se debe de descargar la carpeta 'autonomous driving' en el directorio '~/catkin_ws/src'. Las carpetas con los modelos se deben de agregar al directorio general de los modelos de Gazebo ('~/.gazebo/models').
+Para poder correr el proyecto primero se debe de descargar la carpeta 'autonomous driving' en el directorio '\~/catkin_ws/src'. Las carpetas con los modelos se deben de agregar al directorio general de los modelos de Gazebo ('\~/.gazebo/models').
 
 En una terminal primero se debe de iniciar el nodo de ROS
 
